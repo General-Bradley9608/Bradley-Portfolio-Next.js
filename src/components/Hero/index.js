@@ -26,12 +26,7 @@ const Hero = () => {
     </p>
   );
   const five = (
-    <a 
-      href="/resume.pdf" 
-      className="resume-link" 
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href="/resume.pdf" className="resume-link" target="_blank" rel="noopener noreferrer">
       View my Resume
     </a>
   );

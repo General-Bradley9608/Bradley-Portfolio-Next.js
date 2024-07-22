@@ -30,7 +30,7 @@ const Featured = () => {
       <div>
         {featuredProjects &&
           featuredProjects.map((project, i) => {
-            const { title, external, techs, github, cover, descriptionHtml } = project;
+            const { title, external, github, cover, descriptionHtml } = project;
             return (
               <StyledProject key={title} ref={(el) => (revealProjects.current[i] = el)}>
                 <div className="project-content">

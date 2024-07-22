@@ -45,7 +45,7 @@ const Projects = () => {
       <TransitionGroup className="projects-grid">
         {projectsToShow &&
           projectsToShow.map((project, i) => {
-            const { title, descriptionHtml, github, external, techs } = project;
+            const { title, descriptionHtml, github, external } = project;
 
             return (
               <CSSTransition

@@ -20,7 +20,8 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Please Feel Free to Say! <br/>
+        Please Feel Free to Say!
+        <br/>
         Whether you have a question or just want to say hi, I&apos;ll try my best to get back to
         you!
       </p>

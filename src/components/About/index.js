@@ -1,10 +1,9 @@
 /* eslint-disable global-require */
 import { useEffect, useRef } from 'react';
 import { NumberedHeading } from '@common/styles';
-import Image from 'next/image';
 import { skills } from '@config';
 import { srConfig } from '@config/sr';
-import { StyledAboutSection, StyledText, StyledPic } from './styles';
+import { StyledAboutSection, StyledText } from './styles';
 
 const About = () => {
   const revealContainer = useRef(null);
@@ -21,21 +20,21 @@ const About = () => {
       <div>
         <StyledText>
           <div>
+            <p>Hello!</p>
             <p>
-              Hello!
-            </p>
-            <p>
-              I&apos;m a Proficient Senior Front-End Engineer offering 7 years of experience providing high-impact web solutions for diverse industry organizations.
-              Skilled in designing, developing and testing multiple web-based applications incorporating a range of technologies.
-              Proficient with CSS and JS Frameworks, with extensive knowledge of UX and User psychology.
-              Aspiring to combine broad background with strong analytical and technical skills to excel as a Front-End Developer.
+              I&apos;m a Proficient Senior Front-End Engineer offering 7 years of experience
+              providing high-impact web solutions for diverse industry organizations. Skilled in
+              designing, developing and testing multiple web-based applications incorporating a
+              range of technologies. Proficient with CSS and JS Frameworks, with extensive knowledge
+              of UX and User psychology. Aspiring to combine broad background with strong analytical
+              and technical skills to excel as a Front-End Developer.
             </p>
             <br />
             <p>Here are a few technologies I&apos;ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">
-            {Object.entries(skills).map(([category, skill]) =>
+            {Object.entries(skills).map(([category, skill]) => (
               <div key={category}>
                 <h3>{category}</h3>
                 <br></br>
@@ -44,7 +43,8 @@ const About = () => {
                     <li key={skill}>{skill}</li>
                   ))}
                 </ul>
-              </div>)}
+              </div>
+            ))}
           </ul>
         </StyledText>
 
