@@ -1,0 +1,32 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@common": "./src/common",
+          "@components": "./src/components",
+          "@graphql": "./src/graphql",
+          "@hooks": "./src/hooks",
+          "@lib": "./src/lib",
+          "@styles": "./src/styles",
+          "@themes": "./src/themes",
+          "@utils": "./src/utils",
+          "@layouts": "./src/layouts",
+          "@fonts": "./src/fonts",
+          "@config": "./src/config"
+        }
+      }
+    ]
+  ]
+}
