@@ -508,7 +508,7 @@
   integrity sha512-IY1R2i2aLsLr7Id3S6p2BA82GNWryt4oSvEXLAKc+L2zdi89dSkE8xC1C+0kpATG4JhBJREnQOH7/zmccM2B0g==
   dependencies:
     "@jest/types" "^26.6.2"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     chalk "^4.0.0"
     jest-message-util "^26.6.2"
     jest-util "^26.6.2"
@@ -524,7 +524,7 @@
     "@jest/test-result" "^26.6.2"
     "@jest/transform" "^26.6.2"
     "@jest/types" "^26.6.2"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     ansi-escapes "^4.2.1"
     chalk "^4.0.0"
     exit "^0.1.2"
@@ -555,7 +555,7 @@
   dependencies:
     "@jest/fake-timers" "^26.6.2"
     "@jest/types" "^26.6.2"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     jest-mock "^26.6.2"
 
 "@jest/fake-timers@^26.6.2":
@@ -565,7 +565,7 @@
   dependencies:
     "@jest/types" "^26.6.2"
     "@sinonjs/fake-timers" "^6.0.1"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     jest-message-util "^26.6.2"
     jest-mock "^26.6.2"
     jest-util "^26.6.2"
@@ -669,7 +669,7 @@
   dependencies:
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/istanbul-reports" "^3.0.0"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
@@ -811,7 +811,7 @@
   resolved "https://registry.npmjs.org/@types/graceful-fs/-/graceful-fs-4.1.9.tgz"
   integrity sha512-olP3sd1qOEe5dXTSaFvQG+02VdRXcdytWLAZsAq1PecU8uqQAhkrnbli7DagjtXKW/Bl7YJbUsa8MPcuc8LHEQ==
   dependencies:
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.6"
@@ -3963,7 +3963,7 @@ jest-environment-jsdom@^26.6.2:
     "@jest/environment" "^26.6.2"
     "@jest/fake-timers" "^26.6.2"
     "@jest/types" "^26.6.2"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     jest-mock "^26.6.2"
     jest-util "^26.6.2"
     jsdom "^16.4.0"
@@ -3976,7 +3976,7 @@ jest-environment-node@^26.6.2:
     "@jest/environment" "^26.6.2"
     "@jest/fake-timers" "^26.6.2"
     "@jest/types" "^26.6.2"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     jest-mock "^26.6.2"
     jest-util "^26.6.2"
 
@@ -3992,7 +3992,7 @@ jest-haste-map@^26.6.2:
   dependencies:
     "@jest/types" "^26.6.2"
     "@types/graceful-fs" "^4.1.2"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     anymatch "^3.0.3"
     fb-watchman "^2.0.0"
     graceful-fs "^4.2.4"
@@ -4016,7 +4016,7 @@ jest-jasmine2@^26.6.3:
     "@jest/source-map" "^26.6.2"
     "@jest/test-result" "^26.6.2"
     "@jest/types" "^26.6.2"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     chalk "^4.0.0"
     co "^4.6.0"
     expect "^26.6.2"
@@ -4069,7 +4069,7 @@ jest-mock@^26.6.2:
   integrity sha512-YyFjePHHp1LzpzYcmgqkJ0nm0gg/lJx2aZFzFy1S6eUqNjXsOqTK10zNRff2dNfssgokjkG65OlWNcIlgd3zew==
   dependencies:
     "@jest/types" "^26.6.2"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
 
 jest-pnp-resolver@^1.2.2:
   version "1.2.3"
@@ -4113,7 +4113,7 @@ jest-runner@^26.6.3:
     "@jest/environment" "^26.6.2"
     "@jest/test-result" "^26.6.2"
     "@jest/types" "^26.6.2"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     chalk "^4.0.0"
     emittery "^0.7.1"
     exit "^0.1.2"
@@ -4168,7 +4168,7 @@ jest-serializer@^26.6.2:
   resolved "https://registry.npmjs.org/jest-serializer/-/jest-serializer-26.6.2.tgz"
   integrity sha512-S5wqyz0DXnNJPd/xfIzZ5Xnp1HrJWBczg8mMfMpN78OJ5eDxXyf+Ygld9wX1DnUWbIbhM1YDY95NjR4CBXkb2g==
   dependencies:
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     graceful-fs "^4.2.4"
 
 jest-snapshot@^26.6.2:
@@ -4206,7 +4206,7 @@ jest-util@^26.6.2:
   integrity sha512-MDW0fKfsn0OI7MS7Euz6h8HNDXVQ0gaM9uW6RjfDmd1DAFcaxX9OqIakHIqhbnmF08Cf2DLDG+ulq8YQQ0Lp0Q==
   dependencies:
     "@jest/types" "^26.6.2"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     chalk "^4.0.0"
     graceful-fs "^4.2.4"
     is-ci "^2.0.0"
@@ -4231,7 +4231,7 @@ jest-watcher@^26.6.2:
   dependencies:
     "@jest/test-result" "^26.6.2"
     "@jest/types" "^26.6.2"
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     ansi-escapes "^4.2.1"
     chalk "^4.0.0"
     jest-util "^26.6.2"
@@ -4242,7 +4242,7 @@ jest-worker@^26.6.2:
   resolved "https://registry.npmjs.org/jest-worker/-/jest-worker-26.6.2.tgz"
   integrity sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==
   dependencies:
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
@@ -4251,7 +4251,7 @@ jest-worker@27.0.0-next.5:
   resolved "https://registry.npmjs.org/jest-worker/-/jest-worker-27.0.0-next.5.tgz"
   integrity sha512-mk0umAQ5lT+CaOJ+Qp01N6kz48sJG2kr2n1rX0koqKf6FIygQV0qLOdN9SCYID4IVeSigDOcPeGLozdMLYfb5g==
   dependencies:
-    "@types/node" "*"
+    "@types/node" "^14.14.31"
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
