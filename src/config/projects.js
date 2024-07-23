@@ -2,7 +2,7 @@
 module.exports = [
   {
     title: 'Crown Shopping Clothing',
-    external: 'https://crwn-clothing.ochanissi.com//',
+    external: 'https://crwn-clothing.ochanissi.com/',
     github: 'https://github.com/General-Bradley9608/Crown-Shopping-Clothing',
     descriptionHtml:
       "Crown Clothing is a React application to browse clothing online. Discover the latest fashion & trends in menswear & womenswear."

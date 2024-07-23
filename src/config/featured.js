@@ -1,30 +1,6 @@
 /* eslint-disable max-len */
 module.exports = [
   {
-    title: 'Ecommerce',
-    cover: './images/Ecommerce.png',
-    github: 'https://github.com/General-Bradley9608/Ecommerce-Project-React',
-    external: '',
-    descriptionHtml:
-      'This is a responsive Ecommerce Project for shopping.'
-  },
-  {
-    title: 'SuperUI',
-    cover: './images/SuperUI.jpg',
-    github: 'https://github.com/General-Bradley9608/SuperUI-React.git',
-    external: 'https://superui.vercel.app',
-    descriptionHtml:
-      'This is a Tailwindcss component library. Built on React, Next.js, ChakraUI and Tailwind CSS'
-  },
-  {
-    title: 'StackOverflow Clone',
-    cover: './images/Stackoverflow.png',
-    github: 'https://github.com/General-Bradley9608/Stack-Overflow-Clone-MERN.git',
-    external: 'https://stackoverflow-clone-client.vercel.app/',
-    descriptionHtml:
-      'Clone project of a famous Q/A website for developers built using MySQL, Express, React, Node, Sequelize'
-  },
-  {
     title: 'Coffee',
     cover: './images/CoffeeApp.jpg',
     github: 'https://github.com/General-Bradley9608/Coffee-App-React',
@@ -55,5 +31,37 @@ module.exports = [
     external: 'https://nancysmithphoto.netlify.app/',
     descriptionHtml:
       'A one page site for photographer with photo plans, prices, reviews and contact information sections. This project was built with Bootstrap5.'
+  },
+  {
+    title: 'StackOverflow Clone',
+    cover: './images/Stackoverflow.png',
+    github: 'https://github.com/General-Bradley9608/Stack-Overflow-Clone-MERN.git',
+    external: '',
+    descriptionHtml:
+      'Clone project of a famous Q/A website for developers built using MySQL, Express, React, Node, Sequelize'
+  },
+  {
+    title: 'Mobile Shop',
+    cover: './images/MobileShop.jpg',
+    github: 'https://github.com/General-Bradley9608/Mobile-Shop-Ecommerce.git',
+    external: '',
+    descriptionHtml:
+      'Clone project of a famous Q/A website for developers built using MySQL, Express, React, Node, Sequelize'
+  },
+  {
+    title: 'Ecommerce',
+    cover: './images/Ecommerce.png',
+    github: 'https://github.com/General-Bradley9608/Ecommerce-Project-React',
+    external: '',
+    descriptionHtml:
+      'This is a responsive Ecommerce Project for shopping.'
+  },
+  {
+    title: 'SuperUI',
+    cover: './images/SuperUI.jpg',
+    github: 'https://github.com/General-Bradley9608/SuperUI-React.git',
+    external: '',
+    descriptionHtml:
+      'This is a Tailwindcss component library. Built on React, Next.js, ChakraUI and Tailwind CSS'
   }
 ];

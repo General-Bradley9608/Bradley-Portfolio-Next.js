@@ -8,7 +8,7 @@ module.exports = {
   projects,
   // skills: ['JavaScript', 'TypeScript', 'React Native', 'React', 'Next.js', 'GraphQL'],
   skills: {
-    "Languages": ["JavaScript", "TypeScript", "HTML5", "CSS3", "SASS", "Tailwind CSS"],
+    "Languages": ["JavaScript", "TypeScript", "HTML5", "CSS3", "SASS", "Tailwind CSS", "PHP", "Laravel", "Python"],
     "Frameworks & Libraries": ["React.js", "Redux", "Vue.js", "Angular.js", "Three.js", "WebGL", "Bootstrap", "MUI", "AntD", "Chakra UI"],
     "Tools & Technologies": ["Figma", "Git", "Webpack", "JIRA", "Selenium", "Jest", "Agile", "Docker", "Jenkins", "Firebase", "Vercel", "Netlify"],
     "Design & Dev": ["Responsive Web Design", "UI/UX Best Practices", "Component-Based Architecture", "API Integration"]
