@@ -8,6 +8,7 @@
     "start": "next start",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
+    "prebuild": "next lint",
     "lint": "eslint . --ext ts --ext tsx --ext js"
   },
   "husky": {

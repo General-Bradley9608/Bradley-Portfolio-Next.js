@@ -10,6 +10,9 @@ module.exports = {
     'import/core-modules': ['styled-jsx', 'styled-jsx/css'],
   },
   rules: {
+    'react/no-danger': 'off',
+    'react/self-closing-comp': 'warn',
+    'no-shadow': 'warn',
     'max-len': ['error', 150],
     'react/jsx-props-no-spreading': 'off',
     'no-plusplus': 'off',

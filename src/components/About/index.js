@@ -34,13 +34,13 @@ const About = () => {
           </div>
 
           <ul className="skills-list">
-            {Object.entries(skills).map(([category, skill]) => (
+            {Object.entries(skills).map(([category, item]) => (
               <div key={category}>
                 <h3>{category}</h3>
                 <br></br>
                 <ul>
-                  {skill.map((skill) => (
-                    <li key={skill}>{skill}</li>
+                  {item.map((item) => (
+                    <li key={item}>{item}</li>
                   ))}
                 </ul>
               </div>
