@@ -14,10 +14,10 @@ const Contact = () => {
   }, []);
 
   return (
-    <StyledContactSection id="contact" ref={revealContainer} >
+    <StyledContactSection id="contact" ref={revealContainer}>
       <NumberedHeading overline>What is Next?</NumberedHeading>
 
-      <h2 className="title" >Get In Touch</h2>
+      <h2 className="title">Get In Touch</h2>
 
       <p>
         Please Feel Free to Say!
@@ -26,7 +26,7 @@ const Contact = () => {
         you!
       </p>
 
-      <a className="email-link" href={`mailto:${email}`} >
+      <a className="email-link" href={`mailto:${email}`}>
         Say Hello
       </a>
     </StyledContactSection>
