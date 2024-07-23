@@ -56,11 +56,11 @@ const Nav = ({ isHome }) => {
               <div className="logo" tabIndex="-1">
                 {isHome ? (
                   <a href="/" aria-label="home">
-                    <IconLogo logo_width={36.581} logo_height={50.186} />
+                    <IconLogo logowidth={123} logoheight={84} />
                   </a>
                 ) : (
                   <Link href="/" aria-label="home">
-                    <IconLogo />
+                    <IconLogo logowidth={123} logoheight={84} />
                   </Link>
                 )}
               </div>
