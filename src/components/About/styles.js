@@ -17,7 +17,7 @@ export const StyledAboutSection = styled.section`
 export const StyledText = styled.div`
   p {
     color: ${(props) => props.theme.text.accent};
-    font-size: 18px
+    font-size: 18px;
   }
 
   ul.skills-list {

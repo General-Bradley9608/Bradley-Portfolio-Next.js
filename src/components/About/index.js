@@ -47,12 +47,6 @@ const About = () => {
             ))}
           </ul>
         </StyledText>
-
-        {/* <StyledPic>
-          <div className="wrapper">
-            <Image width={300} height={300} blu src="/avatar.jpeg" alt="Avatar" className="img" />
-          </div>
-        </StyledPic> */}
       </div>
     </StyledAboutSection>
   );
