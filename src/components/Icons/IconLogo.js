@@ -15,8 +15,8 @@ const IconLogo = ({ logowidth, logoheight }) => {
 };
 
 IconLogo.propTypes = {
-  width: PropTypes.number,
-  height: PropTypes.number,
+  logowidth: PropTypes.number,
+  logoheight: PropTypes.number,
 };
 
 export default withTheme(IconLogo);
