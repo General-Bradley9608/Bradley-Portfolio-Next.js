@@ -33,6 +33,14 @@ module.exports = [
       'A one page site for photographer with photo plans, prices, reviews and contact information sections. This project was built with Bootstrap5.'
   },
   {
+    title: 'Ecommerce 3D Products',
+    cover: './images/3DProducts.png',
+    github: 'https://github.com/General-Bradley9608/Ecommerce-Shop-Three.js',
+    external: '',
+    descriptionHtml:
+      'Ecommerce site with 3D products. Built using React, Three.js. Users can rotate and zoom the products.'
+  },
+  {
     title: 'StackOverflow Clone',
     cover: './images/Stackoverflow.png',
     github: 'https://github.com/General-Bradley9608/Stack-Overflow-Clone-MERN.git',
